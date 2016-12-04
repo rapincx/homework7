@@ -1,0 +1,34 @@
+header
+    .container
+        .video_wrap
+            video#main_video(autoplay="true" loop="true" preload="none" muted="true")
+                source(src="main-video.mp4" type="video/mp4")
+        nav#navbar-main.navbar.navbar-default
+            .container-fluid
+                .navbar-header
+                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href='#')
+                        img(src='assets/img/logo.png' alt="logo")
+                #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar-right
+                        li
+                            a.scroll(href='#about') About
+                        li
+                            a.scroll(href='#portfolio') Portfolio
+                        li
+                            a.scroll(href='#team') Team
+                        li
+                            a.scroll(href='#contact') Contact
+        .clearfix
+        .header-matter
+            h1
+                | Welcome To
+                br
+                |  Kramerica Industries
+            .line
+                a#v-exchange.scroll(href='#about') V
+                p Explore
